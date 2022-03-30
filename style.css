@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.heading {
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.cards {
+  padding: 25px 25px;
+  margin: 0.575rem;
+  width: 300px;
+  height: 300px;
+}
+
+.card-title {
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  font-family: monospace;
+}
+
+/* second page sytling */
+
+.cars {
+  padding: 25px 25px;
+  margin: 0.575rem;
+  width: 300px;
+  height: 300px;
+}
+
+.cars-title {
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main-the-second {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+/* #boxes {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #boxes li {
+    width: 33%;
+    float: left;
+    border: 1px solid black;
+  }
+  
+  #boxes > li:nth-child(3n+1) {
+    border-right: none;
+  }
+  
+  #boxes > li:nth-child(3n+3) {
+    border-left: none;
+  }
+  
+  #boxes .head {
+    border-bottom: 2px solid #999;
+  } */
+  
